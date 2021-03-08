@@ -19,19 +19,18 @@ class Funfact extends Component{
     render(){
 
         let data = [
-            {img: 'funfact-project.png', countNum : 598, countTitle: 'Projects' },
-            {img: 'funfact-clients.png', countNum : 128, countTitle: 'Clients' },
-            {img: 'funfact-success.png', countNum : 114, countTitle: 'Success' },
-            {img: 'funfact-award.png', countNum : 109, countTitle: 'Awards' }
+            {img: 'funfact-project.png', countNum : 2, countTitle: 'Metros Quadrados', suffix: ' Milhões' },
+            {img: 'funfact-clients.png', countNum : 5, countTitle: 'Empreendimentos', suffix: ' Mil' },
+            {img: 'funfact-success.png', countNum : 4, countTitle: 'Metros Lineares', suffix: ' Milhões'},
         ];
 
         let DataList = data.map((val, i)=>{
             return(
-                <div className="single-fact col-md-3 col-6 section-space--bottom--30" key={i}>
+                <div className="single-fact col-md-4 col-6 section-space--bottom--30" key={i}>
                     <img src={`assets/img/icons/${val.img}`} alt="" />
                     <h1 className="counter">
                     <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall>
-                        <CountUp end={this.state.didViewCountUp ? val.countNum : 0} />
+                        <CountUp end={this.state.didViewCountUp ? val.countNum : 0} separator="." suffix={val.suffix} />
                     </VisibilitySensor>
                     </h1>
                     <h4>{val.countTitle}</h4>

@@ -6,10 +6,10 @@ class ServiceTabExample extends Component{
         
         /* service tab menu */
         let serviceTabMenuData = [
-            {iconName: 'flaticon-002-welding', tabMenuName: 'Land Mining'},
-            {iconName: 'flaticon-004-walkie-talkie', tabMenuName: 'Work Management'},
-            {iconName: 'flaticon-015-cart', tabMenuName: 'Material Engineering'},
-            {iconName: 'flaticon-010-tank-1', tabMenuName: 'Power and Energy'}
+            {iconName: 'flaticon-002-welding', tabMenuName: 'Volterrana'},
+            {iconName: 'flaticon-004-walkie-talkie', tabMenuName: 'Treliçada – Unidirecional ou Bidirecional'},
+            {iconName: 'flaticon-015-cart', tabMenuName: 'Pré-laje ou Minipainel'},
+            {iconName: 'flaticon-010-tank-1', tabMenuName: 'Painel'}
         ];
 
         let serviceTabMenuDatalist = serviceTabMenuData.map((val, i)=>{
@@ -22,10 +22,10 @@ class ServiceTabExample extends Component{
         /* service tab content */
         
         let serviceTabContentData = [
-            {bgUrl: "service-tab1.jpg", contentTitle: 'Land Mining', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
-            {bgUrl: "service-tab1.jpg", contentTitle: 'Work Management', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
-            {bgUrl: "service-tab1.jpg", contentTitle: 'Material Engineering', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
-            {bgUrl: "service-tab1.jpg", contentTitle: 'Power and Energy', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'}
+            {bgUrl: "service-tab1.jpg", contentTitle: 'Volterrana', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
+            {bgUrl: "service-tab1.jpg", contentTitle: 'Treliçada – Unidirecional ou Bidirecional', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
+            {bgUrl: "service-tab1.jpg", contentTitle: 'Pré-laje ou Minipainel', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
+            {bgUrl: "service-tab1.jpg", contentTitle: 'Painel', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'}
         ];
 
         let serviceTabContentDatalist = serviceTabContentData.map((val, i)=>{
@@ -51,7 +51,7 @@ class ServiceTabExample extends Component{
                     <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title-area text-center">
-                        <h2 className="section-title section-space--bottom--50">Our Services <span className="title-icon" /></h2>
+                        <h2 className="section-title section-space--bottom--50">Nossos Produtos</h2>
                         </div>
                     </div>
                     <div className="col-lg-12">

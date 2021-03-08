@@ -93,17 +93,17 @@ class NavBar extends Component{
                                         <i className="zmdi zmdi-smartphone-android" />
                                         </div>
                                         <div className="header-info-single-item__content">
-                                        <h6 className="header-info-single-item__title">Phone</h6>
-                                        <p className="header-info-single-item__subtitle">98 9875 5968 54</p>
+                                        <h6 className="header-info-single-item__title">Fone</h6>
+                                        <p className="header-info-single-item__subtitle">91 9 99340-5834</p>
                                         </div>
                                     </div>
                                     <div className="header-info-single-item">
                                         <div className="header-info-single-item__icon">
-                                        <i className="zmdi zmdi-home" />
+                                        <i className="zmdi zmdi-pin" />
                                         </div>
                                         <div className="header-info-single-item__content">
-                                        <h6 className="header-info-single-item__title">Address</h6>
-                                        <p className="header-info-single-item__subtitle">your address goes here</p>
+                                        <h6 className="header-info-single-item__title">Endereço</h6>
+                                        <p className="header-info-single-item__subtitle">R. da Pedreirinha, 777 - Guanabara, Ananindeua - PA</p>
                                         </div>
                                     </div>
                                     </div>
@@ -127,23 +127,23 @@ class NavBar extends Component{
                                         <div className="header-navigation__nav position-static">
                                         <nav>
                                             <ul>
-                                            <li>
+                                            <li className="text-uppercase">
                                                 <Link to={`${process.env.PUBLIC_URL}/`}> HOME </Link>
                                                 
                                             </li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>QUEM SOMOS</Link></li>
+                                            <li className="text-uppercase"><Link to={`${process.env.PUBLIC_URL}/quem-somos`}>QUEM SOMOS</Link></li>
+                                            <li className="text-uppercase"><Link to={`${process.env.PUBLIC_URL}/produtos`}>Produtos</Link></li>
                                             
-                                            <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/projects`} >PROJETOS</Link>
-                                                <ul className="submenu">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/projects`} >Project Page</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/project-details`}>Project Details</Link></li>
+                                            <li className="has-children has-children--multilevel-submenu text-uppercase">
+                                                <Link to={`${process.env.PUBLIC_URL}/projetos`} >PROJETOS</Link>
+                                                <ul className="submenu text-capitalize">
+                                                <li><Link to={`${process.env.PUBLIC_URL}/projeto-detalhe`}>Project Details</Link></li>
                                                 </ul>
                                             </li>
-                                            <li>
+                                            <li className="text-uppercase">
                                                 <Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>BLOG</Link>                                                
                                             </li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>CONTATO</Link> </li>
+                                            <li className="text-uppercase"><Link to={`${process.env.PUBLIC_URL}/contato`}>CONTATO</Link> </li>
                                             </ul>
                                         </nav>
                                         </div>

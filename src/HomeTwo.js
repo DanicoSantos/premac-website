@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 import NavBar from './components/NavBar';
 import HeroSliderTwo from './components/HeroSliderTwo';
 import VideoCta from './components/VideoCta';
+import Funfact from './components/Funfact';
 import ProjectSliderTwo from './components/ProjectSliderTwo';
 import ServiceTab from './components/ServiceTab';
 import TestimonialSlider from './components/TestimonialSlider';
-import TeamJob from './components/TeamJob';
-import BlogGrid from './components/BlogGrid';
+import PageCta from './components/PageCta';
 import BrandLogoSlider from './components/BrandLogoSlider';
 import Footer from './components/Footer';
 import MobileMenu from './components/MobileMenu';
@@ -25,24 +25,24 @@ class HomeTwo extends Component{
                 
                 {/* Video CTA */}
                 <VideoCta/>
-                
+
+                {/* Fun fact */}
+                <Funfact/>
+
                 {/* Project Slider */}
                 <ProjectSliderTwo/>
-                
+
                 {/* Service Tab */}
                 <ServiceTab/>
-                
+
                 {/* Testimonial Slider */}
                 <TestimonialSlider/>
-                
-                {/* Team job */}
-                <TeamJob/>
+
+                {/* Page Cta*/}
+                <PageCta/>
 
                 {/* Brand logo */}
                 <BrandLogoSlider background = "grey-bg" />
-                
-                {/* Blog grid */}
-                <BlogGrid  background = "" />
 
                 {/* Footer */}
                 <Footer/>
