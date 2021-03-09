@@ -43,7 +43,7 @@ class TeamMemberGrid extends Component{
                     <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title-area text-center">
-                        <h2 className="section-title section-space--bottom--50">Our Team <span className="title-icon" /></h2>
+                        <h2 className="section-title section-space--bottom--50">O Time PREMAC</h2>
                         </div>
                     </div>
                     </div>

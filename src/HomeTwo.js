@@ -42,7 +42,7 @@ class HomeTwo extends Component{
                 <PageCta/>
 
                 {/* Brand logo */}
-                <BrandLogoSlider background = "grey-bg" />
+                {/* <BrandLogoSlider background = "grey-bg" /> */}
 
                 {/* Footer */}
                 <Footer/>

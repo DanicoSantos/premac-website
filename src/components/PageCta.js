@@ -13,7 +13,7 @@ export default function PageCta() {
                     </div>
                     <div className="col-lg-6">
                     <div className="contact-form d-flex justify-content-end">
-                    <button className="text-uppercase mt-0">Entre em contato</button>
+                    <a href="https://api.whatsapp.com/send?phone=%205591993405834" rel="noopener noreferrer" target="_blank" className="text-uppercase mt-0 ht-btn--default">Entre em contato</a>
                     </div>
                     </div>
                 </div>

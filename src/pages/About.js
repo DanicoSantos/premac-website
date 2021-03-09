@@ -36,10 +36,10 @@ class About extends Component{
                         <div className="row">
                             <div className="col">
                                 <div className="page-banner text-center">
-                                    <h1>About Us</h1>
+                                    <h1>Quem Somos</h1>
                                     <ul className="page-breadcrumb">
                                         <li><a href="/">Home</a></li>
-                                        <li>About Us</li>
+                                        <li>Quem Somos</li>
                                     </ul>
                                 </div>
                             </div>
@@ -66,11 +66,11 @@ class About extends Component{
                     </div>
                     <div className="col-lg-6 col-12 mb-30">
                         <div className="about-content-two">
-                        <h3>Welcome to Castro</h3>
-                        <h1>50 Years of Experience in Industry</h1>
-                        <h4>We are ready to build your dream home Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, beatae.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repudiandae odit dolorum quis laudantium impedit beatae perferendis natus, hic libero sed atque quibusdam possimus error, voluptate est molestiae doloremque necessitatibus illum rerum sunt! Ad sunt obcaecati voluptatem sint sequi quos, qui non deleniti a praesentium, sapiente accusantium odit.</p>
-                        <a href="services" className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Our Services</a>
+                        <h3>Olá, somos a PREMAC!</h3>
+                        <h1>São 24 anos de experiência no mercado.</h1>
+                        <h4>Oferecemos soluções específicas para cada empreendimento. Não abrimos mão de boas soluções e boa engenharia!</h4>
+                        <p>Possuímos a única fábrica de Lajes pré-moldadas da região norte automatizada, produzimos em grande quantidade, em um curto espaço de tempo e com o máximo de tecnologia. Isso possibilita com que seus pedidos sejam entregues sempre no prazo, não atrasando o andamento da sua obra.</p>
+                        <a href="produtos" className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Nossos Produtos</a>
                         </div>
                     </div>
                     </div>
@@ -112,17 +112,8 @@ class About extends Component{
                 </div>
                 {/*About section end*/}
                 
-                {/* Fun fact */}
-                <Funfact/>
-                
                 {/* Team member */}
-                <TeamMemberGrid/>
-                
-                {/* Testimonial Slider */}
-                <TestimonialSlider/>
-                
-                {/* Brand logo */}
-                <BrandLogoSlider background = "" />
+                <TeamMemberGrid/>                
 
                 </div>
 
