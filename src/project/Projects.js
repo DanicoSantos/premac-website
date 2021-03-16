@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import NavBar from '../components/NavBar';
-import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 import MobileMenu from '../components/MobileMenu';
 class Projects extends Component{
@@ -96,9 +95,7 @@ class Projects extends Component{
 
                 {/*====================  End of project page content  ====================*/}
 
-                
-                {/* Brand logo */}
-                <BrandLogoSlider background = "grey-bg" />
+            
 
                 {/* Footer */}
                 <Footer/>

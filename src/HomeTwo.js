@@ -7,7 +7,6 @@ import ProjectSliderTwo from './components/ProjectSliderTwo';
 import ServiceTab from './components/ServiceTab';
 import TestimonialSlider from './components/TestimonialSlider';
 import PageCta from './components/PageCta';
-import BrandLogoSlider from './components/BrandLogoSlider';
 import Footer from './components/Footer';
 import MobileMenu from './components/MobileMenu';
 
