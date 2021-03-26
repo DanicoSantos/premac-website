@@ -41,7 +41,7 @@ class Footer extends Component {
         return (
             <div>
                 {/*====================  footer area ====================*/}
-                <div className="footer-area dark-bg">
+                <div className="footer-area footer-bg">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
