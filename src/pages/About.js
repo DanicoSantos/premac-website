@@ -1,31 +1,30 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import NavBar from '../components/NavBar';
-import FeatureIcon from '../components/FeatureIcon';
-import TeamMemberGrid from '../components/TeamMemberGrid';
+import PageCta from '../components/PageCta'
 import Footer from '../components/Footer';
 import MobileMenu from '../components/MobileMenu';
 import ModalVideo from 'react-modal-video'
-class About extends Component{
+class About extends Component {
 
-    constructor () {
+    constructor() {
         super()
         this.state = {
-          isOpen: false
+            isOpen: false
         }
         this.openModal = this.openModal.bind(this)
-      }
-     
-      openModal () {
-        this.setState({isOpen: true})
-      }
+    }
 
-    render(){
-        return(
+    openModal() {
+        this.setState({ isOpen: true })
+    }
+
+    render() {
+        return (
             <div>
 
                 {/* Navigation bar */}
-                <NavBar/>
-                
+                <NavBar />
+
                 {/* breadcrumb */}
                 {/*====================  breadcrumb area ====================*/}
                 <div className="breadcrumb-area breadcrumb-bg">
@@ -46,80 +45,46 @@ class About extends Component{
                 {/*====================  End of breadcrumb area  ====================*/}
 
                 <div className="page-wrapper section-space--inner--top--120">
-                {/*About section start*/}
-                <div className="about-section section-space--inner--bottom--120">
-                <div className="container">
-                    <div className="row row-25 align-items-center">
-                    <div className="col-lg-6 col-12 mb-30">
-                        <div className="about-image-two">
-                        <img src="assets/img/about/about-3.jpg" alt="" />
-                            <span className="video-popup">
-                                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='OrS-93U4AYQ' onClose={() => this.setState({isOpen: false})} />
-                                <button onClick={this.openModal}>
-                                    <i className="ion-ios-play-outline" />
-                                </button>
-                            </span>
+                    {/*About section start*/}
+                    <div className="about-section section-space--inner--bottom--120">
+                        <div className="container">
+                            <div className="row row-25 align-items-center">
+                                <div className="col-lg-6 col-12 mb-30">
+                                    <div className="about-image-two">
+                                        <img src="assets/img/backgrounds/video-cta.gif" alt="" />
+                                        <span className="video-popup">
+                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='OulHyxDouyc' onClose={() => this.setState({ isOpen: false })} />
+                                            <button onClick={this.openModal}>
+                                                <i className="ion-ios-play-outline" />
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 col-12 mb-30">
+                                    <div className="about-content-two">
+                                        <h3>Olá, somos a PREMAC.</h3>
+                                        <h1>São 24 anos de experiência no mercado.</h1>
+                                        <h4>Oferecemos soluções específicas para cada empreendimento. Não abrimos mão de boas soluções e boa engenharia!</h4>
+                                        <p>Possuímos a única fábrica de Lajes pré-moldadas da região norte automatizada, produzimos em grande quantidade, em um curto espaço de tempo e com o máximo de tecnologia. Isso possibilita com que seus pedidos sejam entregues sempre no prazo, não atrasando o andamento da sua obra.</p>
+                                        <a href="produtos" className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Nossos Produtos</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-12 mb-30">
-                        <div className="about-content-two">
-                        <h3>Olá, somos a PREMAC!</h3>
-                        <h1>São 24 anos de experiência no mercado.</h1>
-                        <h4>Oferecemos soluções específicas para cada empreendimento. Não abrimos mão de boas soluções e boa engenharia!</h4>
-                        <p>Possuímos a única fábrica de Lajes pré-moldadas da região norte automatizada, produzimos em grande quantidade, em um curto espaço de tempo e com o máximo de tecnologia. Isso possibilita com que seus pedidos sejam entregues sempre no prazo, não atrasando o andamento da sua obra.</p>
-                        <a href="produtos" className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Nossos Produtos</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                {/*About section end*/}
-                
-                {/* Feature Icon */}
-                <FeatureIcon background = "grey-bg"/>
-
-                {/*About section start*/}
-                <div className="about-section section-space--inner--120">
-                <div className="container">
-                    <div className="about-wrapper row">
-                    <div className="col-sm-6 col-12 order-1 order-lg-2">
-                        <div className="about-image about-image-1">
-                        <img src="assets/img/about/about-1.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div className="col-sm-6 col-12 order-2 order-lg-3">
-                        <div className="about-image about-image-2">
-                        <img src="assets/img/about/about-2.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-12 order-3 order-lg-1">
-                        <div className="about-content about-content-1">
-                        <h1><span>50</span>Years of Experience</h1>
-                        <p>ligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor ellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum atibus saepe eveniet ut et voluptates repudiandae sint et molestiae</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-12 order-4">
-                        <div className="about-content about-content-2">
-                        <p>ligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor ellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum atibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapie</p>
-                        <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Contact us</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                {/*About section end*/}
-                
-                {/* Team member */}
-                <TeamMemberGrid/>                
+                    {/*About section end*/}
 
                 </div>
+
+                {/* Page Cta*/}
+                <PageCta/>
 
 
                 {/* Footer */}
-                <Footer/>
+                <Footer />
 
                 {/* Mobile Menu */}
-                <MobileMenu/>
+                <MobileMenu />
 
             </div>
         )

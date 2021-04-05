@@ -47,7 +47,7 @@ class TestimonialSlider extends Component {
         return (
             <div>
                 {/*====================  testimonial slider area ====================*/}
-                <div className="testimonial-slider-area testimonial-slider-area-bg section-space--inner--120">
+                <div className="testimonial-slider-area testimonial-slider-area-bg section-space--inner--120 breadcrumb-area breadcrumb-bg">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-10 offset-lg-1">

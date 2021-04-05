@@ -58,6 +58,10 @@
 
     &__image-wrapper{
         overflow: hidden;
+        img{
+            width: 370px;
+            height: 230px
+        }
     }
     
     &__content{

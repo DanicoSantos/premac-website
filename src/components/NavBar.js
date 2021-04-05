@@ -135,7 +135,7 @@ class NavBar extends Component{
                                             <li className="text-uppercase"><Link to={`${process.env.PUBLIC_URL}/produtos`}>Produtos</Link></li>
                                             
                                             <li className="has-children has-children--multilevel-submenu text-uppercase">
-                                                <Link to={`${process.env.PUBLIC_URL}/projetos`} >PROJETOS</Link>
+                                                <Link to={`#`} >PROJETOS</Link>
                                                 <ul className="submenu text-capitalize">
                                                 <li><Link to={`${process.env.PUBLIC_URL}/`}>Residencias</Link></li>
                                                 <li><Link to={`${process.env.PUBLIC_URL}/`}>Edifícios</Link></li>
@@ -147,7 +147,7 @@ class NavBar extends Component{
                                             <li className="text-uppercase">
                                                 <Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>BLOG</Link>                                                
                                             </li>
-                                            <li className="text-uppercase"><Link to={`${process.env.PUBLIC_URL}/contato`}>CONTATO</Link> </li>
+                                            <li className="text-uppercase"><a href="https://api.whatsapp.com/send?phone=%205591993405834" target="_blank" rel="noopener noreferrer">CONTATO</a> </li>
                                             </ul>
                                         </nav>
                                         </div>

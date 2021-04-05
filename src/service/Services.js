@@ -6,13 +6,13 @@ class Services extends Component{
     render(){
 
         let data = [
-            {pageLink: 'service-details-left-sidebar', img: 'service1.jpg', iconClass: 'flaticon-002-welding', serviceTitle: 'LAJE LT12', serviceSubtitle: 'A LAJE LT12 é um dos modelos de laje mais utilizados em construções. Ela pode ser aplicada em obras de grande porte a construções pequenas.'},
-            {pageLink: 'service-details-left-sidebar', img: 'service2.jpg', iconClass: 'flaticon-004-walkie-talkie', serviceTitle: 'LAJE PAINEL TRELIÇADO', serviceSubtitle: 'A laje painel treliçado pode ser utilizada sobre qualquer estrutura, entre elas concreto armado, alvenaria estrutural ou estrutura metálica.'},
-            {pageLink: 'service-details-left-sidebar', img: 'service3.jpg', iconClass: 'flaticon-015-cart', serviceTitle: 'LAJE BIDIRECIONAL', serviceSubtitle: 'Com a laje pré moldada bidirecional, o consumidor estará amparado por um tipo de laje resistente, tecnicamente superior e de excelente qualidade.'},
-            {pageLink: 'service-details-left-sidebar', img: 'service-3.jpg', iconClass: 'flaticon-010-tank-1', serviceTitle: ' LAJE PRÉ MOLDADA EPS', serviceSubtitle: 'A laje pré moldada eps é que, além de ser de fácil manuseio, oferece mais economia quando comparada a outros tipos de lajes.'},
-            {pageLink: 'service-details-left-sidebar', img: 'service-2.jpg', iconClass: 'flaticon-004-walkie-talkie', serviceTitle: 'LAJE PRÉ MOLDADA ISOPOR', serviceSubtitle: 'Ela é conhecida por utilizar o isopor em seu preenchimento, proporcionando à laje um material mais leve e barato na hora da montagem.'},
-            {pageLink: 'service-details-left-sidebar', img: 'service-1.jpg', iconClass: 'flaticon-002-welding', serviceTitle: 'LAJE PRÉ MOLDADA TRELIÇADA', serviceSubtitle: 'A laje pré moldada treliçada tem em sua constituição uma estrutura em ferro no formato de treliça, o que deu origem a sua nomenclatura.'},
-            {pageLink: 'service-details-left-sidebar', img: 'service-1.jpg', iconClass: 'flaticon-002-welding', serviceTitle: 'LAJE VOLTERRANA', serviceSubtitle: 'A laje volterrana oferece uma série de vantagens, se comparada a outros modelos de laje pré-moldadas, como a redução de mão de obra, materiais e praticidade na instalação.'}
+            {pageLink: '#', img: 'laje-lt12.jpg', iconClass: 'flaticon-002-welding', serviceTitle: 'LAJE LT12', serviceSubtitle: 'A LAJE LT12 é um dos modelos de laje mais utilizados em construções. Ela pode ser aplicada em obras de grande porte a construções pequenas.'},
+            {pageLink: '#', img: 'preco-laje-painel-trelicado.jpg', iconClass: 'flaticon-004-walkie-talkie', serviceTitle: 'LAJE PAINEL TRELIÇADO', serviceSubtitle: 'A laje painel treliçado pode ser utilizada sobre qualquer estrutura, entre elas concreto armado, alvenaria estrutural ou estrutura metálica.'},
+            {pageLink: '#', img: 'laje-trelicada-bidirecional.jpg', iconClass: 'flaticon-015-cart', serviceTitle: 'LAJE BIDIRECIONAL', serviceSubtitle: 'Com a laje pré moldada bidirecional, o consumidor estará amparado por um tipo de laje resistente, tecnicamente superior e de excelente qualidade.'},
+            {pageLink: '#', img: 'laje-pre-moldada-eps.jpg', iconClass: 'flaticon-010-tank-1', serviceTitle: ' LAJE PRÉ MOLDADA EPS', serviceSubtitle: 'A laje pré moldada eps é que, além de ser de fácil manuseio, oferece mais economia quando comparada a outros tipos de lajes.'},
+            {pageLink: '#', img: 'laje-pre-moldada-isopor.jpg', iconClass: 'flaticon-004-walkie-talkie', serviceTitle: 'LAJE PRÉ MOLDADA ISOPOR', serviceSubtitle: 'Ela é conhecida por utilizar o isopor em seu preenchimento, proporcionando à laje um material mais leve e barato na hora da montagem.'},
+            {pageLink: '#', img: 'laje-trelicada-unidirecional.jpg', iconClass: 'flaticon-002-welding', serviceTitle: 'LAJE PRÉ MOLDADA TRELIÇADA', serviceSubtitle: 'A laje pré moldada treliçada tem em sua constituição uma estrutura em ferro no formato de treliça, o que deu origem a sua nomenclatura.'},
+            {pageLink: '#', img: 'lage-volterrana.jpg', iconClass: 'flaticon-002-welding', serviceTitle: 'LAJE VOLTERRANA', serviceSubtitle: 'A laje volterrana oferece uma série de vantagens, se comparada a outros modelos de laje pré-moldadas, como a redução de mão de obra, materiais e praticidade na instalação.'}
         ];
 
         let Datalist = data.map((val, i) => {
@@ -22,7 +22,7 @@ class Services extends Component{
                     <div className="service-grid-item__image">
                         <div className="service-grid-item__image-wrapper">
                         {/* <a href={`${process.env.PUBLIC_URL}/${val.pageLink}`}> */}
-                            <img src={`assets/img/service/${val.img}`} className="img-fluid" alt="Service Grid" />
+                            <img src={`assets/img/backgrounds/${val.img}`} className="img-fluid" alt="Service Grid"/>
                         {/* </a> */}
                         </div>
                         {/* <div className="icon">
