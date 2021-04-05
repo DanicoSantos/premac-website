@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import NavBar from '../components/NavBar';
 import Sidebar from './components/Sidebar';
+import PageCta from '../components/PageCta';
 import BlogPostGrid from './components/BlogPostGrid';
-import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 import MobileMenu from '../components/MobileMenu';
 class BlogLeftSidebar extends Component{
@@ -44,11 +44,11 @@ class BlogLeftSidebar extends Component{
                         <div className="row ">
                             <div className="col">
                             <ul className="page-pagination section-space--top--30">
-                                <li><a href="/"><i className="fa fa-angle-left" /> Prev</a></li>
+                                <li><a href="/"><i className="fa fa-angle-left" /> Ant</a></li>
                                 <li className="active"><a href="/">01</a></li>
                                 <li><a href="/">02</a></li>
                                 <li><a href="/">03</a></li>
-                                <li><a href="/"><i className="fa fa-angle-right" /> Next</a></li>
+                                <li><a href="/"><i className="fa fa-angle-right" /> Próx</a></li>
                             </ul>
                             </div>
                         </div>
@@ -65,8 +65,9 @@ class BlogLeftSidebar extends Component{
 
                 {/*====================  End of blog page content  ====================*/}
 
-                {/* Brand logo */}
-                <BrandLogoSlider background = "grey-bg" />
+
+                {/* Page CTA */}
+                <PageCta/>
 
                 {/* Footer */}
                 <Footer/>

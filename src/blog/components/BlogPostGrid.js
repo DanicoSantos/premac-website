@@ -4,12 +4,8 @@ class BlogPostGrid extends Component{
     render(){
 
         let data = [
-            {postLink: "blog-details-left-sidebar", postImg: '1.jpg', postDate: 'AUGUST 4, 2019', postTitle: 'Industry Ministry to Hike', postExcerpt:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe minus, illo error ratione eos ex…'},
-            {postLink: "blog-details-left-sidebar", postImg: '2.jpg', postDate: 'AUGUST 4, 2019', postTitle: 'Worker Safety: India Appeals', postExcerpt:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe minus, illo error ratione eos ex…'},
-            {postLink: "blog-details-left-sidebar", postImg: '3.jpg', postDate: 'AUGUST 4, 2019', postTitle: 'Industry Ministry to Hike', postExcerpt:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe minus, illo error ratione eos ex…'},
-            {postLink: "blog-details-left-sidebar", postImg: '1.jpg', postDate: 'AUGUST 4, 2019', postTitle: 'Industry Ministry to Hike', postExcerpt:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe minus, illo error ratione eos ex…'},
-            {postLink: "blog-details-left-sidebar", postImg: '2.jpg', postDate: 'AUGUST 4, 2019', postTitle: 'Worker Safety: India Appeals', postExcerpt:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe minus, illo error ratione eos ex…'},
-            {postLink: "blog-details-left-sidebar", postImg: '3.jpg', postDate: 'AUGUST 4, 2019', postTitle: 'Industry Ministry to Hike', postExcerpt:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe minus, illo error ratione eos ex…'}
+            {postLink: "blog-details-left-sidebar", postImg: '1.jpg', postDate: '4 de Abril de 2021', postTitle: 'Escoramento', postExcerpt:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe minus, illo error ratione eos ex…'},
+            {postLink: "blog-details-left-sidebar", postImg: '1.jpg', postDate: '4 de Abril de 2021', postTitle: 'Laje Pré-moldada', postExcerpt:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe minus, illo error ratione eos ex…'},
         ];
 
         let Datalist = data.map((val, i)=>{

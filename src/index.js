@@ -37,7 +37,7 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/service-details-right-sidebar`} component={ServiceDetailsRightSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/projetos`} component={Projects}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/projeto-detalhe`} component={ProjectDetails}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/blog-left-sidebar`} component={BlogLeftSidebar}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={BlogLeftSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-right-sidebar`} component={BlogRightSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`} component={BlogDetailsLeftSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`} component={BlogDetailsRightSidebar}/>
