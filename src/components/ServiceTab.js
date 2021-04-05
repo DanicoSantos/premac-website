@@ -9,12 +9,12 @@ class ServiceTabExample extends Component{
             {iconName: 'flaticon-002-welding', tabMenuName: 'Volterrana'},
             {iconName: 'flaticon-004-walkie-talkie', tabMenuName: 'Treliçada – Unidirecional ou Bidirecional'},
             {iconName: 'flaticon-015-cart', tabMenuName: 'Pré-laje ou Minipainel'},
-            {iconName: 'flaticon-010-tank-1', tabMenuName: 'Painel'}
+            {iconName: 'flaticon-010-tank-1', tabMenuName: 'Painel Treliçado'}
         ];
 
         let serviceTabMenuDatalist = serviceTabMenuData.map((val, i)=>{
             return(
-                <Tab key={i}>  <span className="icon"><i className={val.iconName} /></span> <span className="text">{val.tabMenuName}</span></Tab>
+                <Tab key={i}>  <span className="icon"></span> <span className="text">{val.tabMenuName}</span></Tab>
             )
         });
 
@@ -22,10 +22,10 @@ class ServiceTabExample extends Component{
         /* service tab content */
         
         let serviceTabContentData = [
-            {bgUrl: "service-tab1.jpg", contentTitle: 'Volterrana', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
-            {bgUrl: "service-tab1.jpg", contentTitle: 'Treliçada – Unidirecional ou Bidirecional', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
-            {bgUrl: "service-tab1.jpg", contentTitle: 'Pré-laje ou Minipainel', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
-            {bgUrl: "service-tab1.jpg", contentTitle: 'Painel', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'}
+            {bgUrl: "lage-volterrana.jpg", contentTitle: 'Volterrana', contentDesc: 'A Laje Volterrana, um dos modelos mais comuns de laje pré-moldada, é usada em construções de portes mais simples.', serviceLink: 'service-details-left-sidebar'},
+            {bgUrl: "laje-trelicada-bidirecional.jpg", contentTitle: 'Treliçada – Unidirecional ou Bidirecional', contentDesc: 'A Laje Pré-moldada Treliçada tem em sua constituição uma estrutura em ferro no formato de treliça, o que deu origem a sua nomenclatura.', serviceLink: 'service-details-left-sidebar'},
+            {bgUrl: "pre-laje.jpg", contentTitle: 'Pré-laje ou Minipainel', contentDesc: 'A Pré-laje é um elemento estrutural muito utilizado para fazer lajes em qualquer tipo de edificação em substituição as tradicionais lajes maciças moldadas in loco.', serviceLink: 'service-details-left-sidebar'},
+            {bgUrl: "preco-laje-painel-trelicado.jpg", contentTitle: 'Painel Treliçado', contentDesc: 'A laje painel treliçado pode ser utilizada sobre qualquer estrutura, entre elas concreto armado, alvenaria estrutural ou estrutura metálica.', serviceLink: 'service-details-left-sidebar'}
         ];
 
         let serviceTabContentDatalist = serviceTabContentData.map((val, i)=>{
@@ -35,7 +35,7 @@ class ServiceTabExample extends Component{
                         <div className="service-tab__single-content">
                             <h3 className="service-tab__title">{val.contentTitle}</h3>
                             <p className="service-tab__text">{val.contentDesc}</p>
-                            <a href={`${process.env.PUBLIC_URL}/${val.serviceLink}`} className="see-more-link">SEE MORE</a>
+                            <a href={`${process.env.PUBLIC_URL}/${val.serviceLink}`} className="see-more-link">Saiba Mais</a>
                         </div>
                     </div>
                 </TabPanel>

@@ -25,7 +25,7 @@ class HeroSliderTwo extends Component{
         }
 
         let data = [
-            {bgImg: 'banner-home.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'https://api.whatsapp.com/send?phone=%205591993405834'},
+            {bgImg: 'banner-home.jpg', sliderTitle: 'A Melhor Solução em Lajes Pré-moldadas', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'https://api.whatsapp.com/send?phone=%205591993405834'},
         ];
 
         let DataList = data.map((val, i)=>{
@@ -38,7 +38,6 @@ class HeroSliderTwo extends Component{
                                 <div className="col-lg-12">
                                 <div className="hero-slider__content m-auto text-center">
                                     <h2 className="hero-slider__title">{val.sliderTitle}</h2>
-                                    <p className="hero-slider__text">{val.sliderSubtitle}</p>
                                     <a className="hero-slider__btn hero-slider__btn--style2 text-uppercase" href={`${val.btnLink}`}> Faça Agora Seu Orçamento</a>
                                 </div>
                                 </div>
