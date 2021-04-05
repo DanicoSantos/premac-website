@@ -5,8 +5,8 @@ class HeroSliderTwo extends Component{
     render(){
         const params = {
             slidesPerView : 1,
-            loop: true,
-            speed: 1000,
+            loop: false,
+            speed: 0,
             watchSlidesVisibility: true,
             effect: 'fade',
             navigation: {
@@ -25,9 +25,7 @@ class HeroSliderTwo extends Component{
         }
 
         let data = [
-            {bgImg: 'slider3.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'},
-            {bgImg: 'slider2.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'},
-            {bgImg: 'slider1.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'}
+            {bgImg: 'banner-home.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'https://api.whatsapp.com/send?phone=%205591993405834'},
         ];
 
         let DataList = data.map((val, i)=>{
@@ -41,7 +39,7 @@ class HeroSliderTwo extends Component{
                                 <div className="hero-slider__content m-auto text-center">
                                     <h2 className="hero-slider__title">{val.sliderTitle}</h2>
                                     <p className="hero-slider__text">{val.sliderSubtitle}</p>
-                                    <a className="hero-slider__btn hero-slider__btn--style2" href={`${process.env.PUBLIC_URL}/${val.btnLink}`}> GET START</a>
+                                    <a className="hero-slider__btn hero-slider__btn--style2 text-uppercase" href={`${val.btnLink}`}> Faça Agora Seu Orçamento</a>
                                 </div>
                                 </div>
                             </div>

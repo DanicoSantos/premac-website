@@ -41,7 +41,7 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-right-sidebar`} component={BlogRightSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`} component={BlogDetailsLeftSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`} component={BlogDetailsRightSidebar}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/contato`} component={Contact}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/contato       `} component={Contact}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/404`} component={PageNotFound}/>
                     <Route component={NoMAtch} />
                 </Switch>

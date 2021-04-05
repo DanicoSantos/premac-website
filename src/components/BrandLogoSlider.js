@@ -5,8 +5,8 @@ class BrandLogoSlider extends Component{
     render(){
 
         const params = {
-            slidesPerView : 4,
-            loop: true,
+            slidesPerView : 1,
+            loop: false,
             speed: 1000,
             spaceBetween : 30,
             autoplay: {
@@ -36,14 +36,8 @@ class BrandLogoSlider extends Component{
         }
 
         let data = [
-            {img: '1.png', logoLink: '/'},
-            {img: '2.png', logoLink: '/'},
-            {img: '3.png', logoLink: '/'},
-            {img: '4.png', logoLink: '/'},
-            {img: '1.png', logoLink: '/'},
-            {img: '2.png', logoLink: '/'},
-            {img: '3.png', logoLink: '/'},
-            {img: '4.png', logoLink: '/'}
+            {img: 'banner-home.jpg', logoLink: '/'},
+            
         ];
 
         let DataList = data.map((val, i)=>{

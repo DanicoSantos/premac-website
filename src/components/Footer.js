@@ -104,7 +104,7 @@ class Footer extends Component {
                     </div>
                     <div className="footer-copyright-wrapper">
                         <div className="footer-copyright text-center">
-                            © 2019 PREMAC. Todos os direitos reservados
+                            © 2021 PREMAC. Todos os direitos reservados
                         </div>
                     </div>
                 </div>

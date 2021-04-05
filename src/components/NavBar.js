@@ -55,11 +55,11 @@ class NavBar extends Component{
                             <div className="top-bar-left-wrapper">
                                 <div className="social-links social-links--white-topbar d-inline-block">
                                 <ul>
-                                    <li><a href="//facebook.com"><i className="zmdi zmdi-facebook" /></a></li>
+                                    {/* <li><a href="//facebook.com"><i className="zmdi zmdi-facebook" /></a></li>
                                     <li><a href="//twitter.com"><i className="zmdi zmdi-instagram" /></a></li>
                                     <li><a href="//vimeo.com"><i className="zmdi zmdi-youtube-play" /></a></li>
                                     <li><a href="//linkedin.com"><i className="zmdi zmdi-linkedin-box" /></a></li>
-                                    <li><a href="//skype.com"><i className="zmdi zmdi-whatsapp" /></a></li>
+                                    <li><a href="//skype.com"><i className="zmdi zmdi-whatsapp" /></a></li> */}
                                 </ul>
                                 </div>
                             </div>

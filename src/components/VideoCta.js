@@ -34,10 +34,10 @@ class VideoCta extends Component {
                             <div className="col-lg-5 offset-lg-1 col-md-6">
                                 <div className="cta-video-image">
                                     <div className="video-popup">
-                                        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='OrS-93U4AYQ' onClose={() => this.setState({ isOpen: false })} />
+                                        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='OulHyxDouyc' onClose={() => this.setState({ isOpen: false })} />
                                         <button onClick={this.openModal}>
                                             <div className="cta-video-image__image">
-                                                <img src="assets/img/backgrounds/video-cta.jpg" className="img-fluid" alt="" />
+                                                <img src="assets/img/backgrounds/video-cta.gif" className="img-fluid" alt="" />
                                             </div>
                                             <div className="cta-video-image__icon">
                                                 <i className="ion-ios-play" />

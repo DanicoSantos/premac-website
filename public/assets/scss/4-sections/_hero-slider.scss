@@ -143,14 +143,16 @@
     }
 
     &__btn{
-        font-size: 13px;
+        font-size: 16px;
         line-height: 1;
         padding: 20px 60px;
         color: $white;
-        border: 1px solid $white;
+        border: 1px solid $theme-color--default;
         align-self: flex-start;
         border-radius: 50px;
         transition: $transition--cubic;
+        background-color: $theme-color--default;
+        font-weight: bold;
 
         &--style2{
             align-self: center;
@@ -158,7 +160,7 @@
 
         &:hover, &:focus, &:active{
             color: $white;
-            background-color: $theme-color--default;
+            background-color: $theme-color--yellow;
             border-color: $theme-color--default;
         }
     }
