@@ -62,7 +62,7 @@ class About extends Component {
                                 </div>
                                 <div className="col-lg-6 col-12 mb-30">
                                     <div className="about-content-two">
-                                        <h3>Olá, somos a PREMAC.</h3>
+                                        <h3>Olá, somos a Premac.</h3>
                                         <h1>São 24 anos de experiência no mercado.</h1>
                                         <h4>Oferecemos soluções específicas para cada empreendimento. Não abrimos mão de boas soluções e boa engenharia!</h4>
                                         <p>Possuímos a única fábrica de Lajes pré-moldadas da região norte automatizada, produzimos em grande quantidade, em um curto espaço de tempo e com o máximo de tecnologia. Isso possibilita com que seus pedidos sejam entregues sempre no prazo, não atrasando o andamento da sua obra.</p>

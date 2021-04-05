@@ -35,7 +35,7 @@ class ServiceTabExample extends Component{
                         <div className="service-tab__single-content">
                             <h3 className="service-tab__title">{val.contentTitle}</h3>
                             <p className="service-tab__text">{val.contentDesc}</p>
-                            <a href={`${process.env.PUBLIC_URL}/${val.serviceLink}`} className="see-more-link">Saiba Mais</a>
+                            {/* <a href={`${process.env.PUBLIC_URL}/${val.serviceLink}`} className="see-more-link">Saiba Mais</a> */}
                         </div>
                     </div>
                 </TabPanel>

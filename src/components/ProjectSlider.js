@@ -31,9 +31,10 @@ class ProjectSlider extends Component{
         };
         
         let data = [
-            {img: '1.jpg', sliderTitle: 'Construction Management', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
-            {img: '1.jpg', sliderTitle: 'Power and Energy', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
-            {img: '1.jpg', sliderTitle: 'Work Management', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
+            {img: 'service1.jpg', serviceTitle: 'Edifícios', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service2.jpg', serviceTitle: 'Complexos Esportivos', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service3.jpg', serviceTitle: 'Igrejas', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', serviceTitle: 'Residencias', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
         ];
 
 

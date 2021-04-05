@@ -2,6 +2,22 @@ import React, {Component} from 'react';
 import Swiper from 'react-id-swiper';
 
 class ServiceGridSlider extends Component{
+
+    constructor(props) {
+        super(props)
+        this.goNext = this.goNext.bind(this)
+        this.goPrev = this.goPrev.bind(this)
+        this.swiper = null
+      }
+    
+      goNext() {
+        if (this.swiper) this.swiper.slideNext()
+      }
+    
+      goPrev() {
+        if (this.swiper) this.swiper.slidePrev()
+      }
+
     render(){
         const params = {
             slidesPerView : 3,
@@ -69,7 +85,7 @@ class ServiceGridSlider extends Component{
                     <div className="row">
                         <div className="col-lg-12">
                         <div className="section-title-area text-center">
-                            <h2 className="section-title mb-0">Obras com selo PREMAC</h2>
+                            <h2 className="section-title mb-0">Obras com selo Premac</h2>
                         </div>
                         </div>
                     </div>
@@ -84,6 +100,8 @@ class ServiceGridSlider extends Component{
                                 <Swiper {...params}>
                                     {DataList}
                                 </Swiper>
+                                <button className="ht-swiper-button-prev ht-swiper-button-nav" onClick={this.goPrev}><i className="ion-ios-arrow-left" /></button>
+                                <button className="ht-swiper-button-next ht-swiper-button-nav" onClick={this.goNext}><i className="ion-ios-arrow-forward" /></button>
                             </div>
                         </div>
                         </div>
