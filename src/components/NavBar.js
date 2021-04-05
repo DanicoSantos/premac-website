@@ -137,7 +137,11 @@ class NavBar extends Component{
                                             <li className="has-children has-children--multilevel-submenu text-uppercase">
                                                 <Link to={`${process.env.PUBLIC_URL}/projetos`} >PROJETOS</Link>
                                                 <ul className="submenu text-capitalize">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/projeto-detalhe`}>Project Details</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/`}>Residencias</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/`}>Edifícios</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/`}>Complexos Esportivos</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/`}>Edifícios</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/`}>Igrejas</Link></li>
                                                 </ul>
                                             </li>
                                             <li className="text-uppercase">
