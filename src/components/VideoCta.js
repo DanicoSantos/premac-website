@@ -24,7 +24,7 @@ class VideoCta extends Component {
                             <div className="col-lg-6 col-md-6">
                                 <div className="video-cta-content">
                                     <h4 className="video-cta-content__small-title">QUEM SOMOS</h4>
-                                    <h3 className="video-cta-content__title">Olá, somos a PREMAC.</h3>
+                                    <h3 className="video-cta-content__title">Olá, somos a Premac.</h3>
                                     <p className="video-cta-content__text">Empresa especialista na construção de lajes 
                                     pré-moldadas há 24 anos. Cada obra é diferente da outra, então oferecemos soluções 
                                     específicas em cada empreendimento.  Não abrimos mão de boas soluções e boa engenharia! </p>
