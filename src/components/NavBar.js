@@ -67,7 +67,7 @@ class NavBar extends Component{
                             <div className="col-lg-8">
                             {/* top bar right */}
                             <div className="top-bar-right-wrapper">
-                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">ENTRE EM CONTATO</a>
+                                <a href="https://api.whatsapp.com/send?phone=%205591993405834" target="_blank" rel="noopener noreferrer" className="ht-btn ht-btn--default d-inline-block">ENTRE EM CONTATO</a>
                             </div>
                             </div>
                         </div>

@@ -51,7 +51,7 @@ class Footer extends Component {
                                             {/* footer intro wrapper */}
                                             <div className="footer-intro-wrapper">
                                                 <div className="footer-logo">
-                                                    <a href={`${process.env.PUBLIC_URL}/home-one`}>
+                                                    <a href={`${process.env.PUBLIC_URL}/`}>
                                                         <img src="assets/img/logo/logo-light.png" className="img-fluid" alt="" />
                                                     </a>
                                                 </div>
