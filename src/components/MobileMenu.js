@@ -61,30 +61,22 @@ class MobileMenu extends Component{
                             <nav className="offcanvas-navigation" id="offcanvas-navigation">
                                 <ul>
                                     <li className="menu-item-has-children">
-                                    <Link to={`${process.env.PUBLIC_URL}/home-one`}>HOME</Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/home-one`}>Homepage One</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/home-two`}>Homepage Two</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/home-three`}>Homepage Three</Link></li>
-                                        </ul>
+                                    <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
+                                        
                                     </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>ABOUT</Link></li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/quem-somos`}>Quem Somos</Link></li>
                                     <li className="menu-item-has-children">
-                                        <Link to={`${process.env.PUBLIC_URL}/services`}>SERVICE</Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/services`}>Service Page</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Service Details Left Sidebar</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}>Service Details Right Sidebar</Link></li>
-                                        </ul>
+                                        <Link to={`${process.env.PUBLIC_URL}/produtos`}>Produtos</Link>
+                                        
                                     </li>
-                                    <li className="menu-item-has-children">
+                                    {/* <li className="menu-item-has-children">
                                         <Link to={`${process.env.PUBLIC_URL}/projects`} >PROJECT</Link>
                                         <ul className="sub-menu">
                                             <li><Link to={`${process.env.PUBLIC_URL}/projects`} >Project Page</Link></li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/project-details`}>Project Details</Link></li>
                                         </ul>
-                                    </li>
-                                    <li className="menu-item-has-children">
+                                    </li> */}
+                                    {/* <li className="menu-item-has-children">
                                         <Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>BLOG</Link>
                                         <ul className="sub-menu">
                                             <li><Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>Blog Left Sidebar</Link></li>
@@ -92,26 +84,25 @@ class MobileMenu extends Component{
                                             <li><Link to={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`}>Blog Details Left Sidebar</Link></li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`}>Blog Details Right Sidebar</Link></li>
                                         </ul>
-                                    </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>CONTACT</Link> </li>
+                                    </li> */}
+                                    <li><a href="https://api.whatsapp.com/send?phone=%205591993405834" target="_blank" rel="noopener noreferrer">Contato</a> </li>
                                 </ul>
                             </nav>
                             <div className="offcanvas-widget-area">
                                 <div className="off-canvas-contact-widget">
                                 <div className="header-contact-info">
                                     <ul className="header-contact-info__list">
-                                    <li><i className="ion-android-phone-portrait" /> <a href="tel://12452456012">(1245) 2456 012 </a></li>
-                                    <li><i className="ion-android-mail" /> <a href="mailto:info@yourdomain.com">info@yourdomain.com</a></li>
+                                    <li><i className="ion-android-phone-portrait" /> <a href="tel://12452456012">91 9 99340-5834 </a></li>
+                                    <li><i className="ion-android-mail" /> <a href="mailto:contatopremac@premac.com">contatopremac@premac.com</a></li>
                                     </ul>
                                 </div>
                                 </div>
                                 {/*Off Canvas Widget Social Start*/}
                                 <div className="off-canvas-widget-social">
-                                <a href="#/" title="Facebook"><i className="fa fa-facebook" /></a>
-                                <a href="#/" title="Twitter"><i className="fa fa-twitter" /></a>
-                                <a href="#/" title="LinkedIn"><i className="fa fa-linkedin" /></a>
-                                <a href="#/" title="Youtube"><i className="fa fa-youtube-play" /></a>
-                                <a href="#/" title="Vimeo"><i className="fa fa-vimeo-square" /></a>
+                                <a href="https://www.facebook.com/premaclajes/" title="Facebook"><i className="fa fa-facebook" /></a>
+                                <a href="https://www.instagram.com/premaclajes" title="Instagram"><i className="fa fa-instagram" /></a>
+                                <a href="https://api.whatsapp.com/send?phone=%205591993405834" title="LinkedIn"><i className="fa fa-whatsapp" /></a>
+                                
                                 </div>
                                 {/*Off Canvas Widget Social End*/}
                             </div>

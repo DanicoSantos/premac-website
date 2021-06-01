@@ -82,7 +82,7 @@ class NavBar extends Component{
                                 <div className="header-info-wrapper align-items-center">
                                     {/* logo */}
                                     <div className="logo">
-                                        <Link to = {`${process.env.PUBLIC_URL}/home-one`}>
+                                        <Link to = {`${process.env.PUBLIC_URL}/`}>
                                             <img src="assets/img/logo/logo.png" className="img-fluid" alt="Logo" />
                                         </Link>
                                     </div>
