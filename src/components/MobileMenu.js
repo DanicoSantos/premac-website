@@ -52,12 +52,12 @@ class MobileMenu extends Component{
                     </a>
                     <div className="offcanvas-wrapper">
                         <div className="offcanvas-inner-content">
-                            <div className="offcanvas-mobile-search-area">
+                            {/* <div className="offcanvas-mobile-search-area">
                                 <form action="#">
                                 <input type="search" placeholder="Search ..." />
                                 <button type="submit"><i className="fa fa-search" /></button>
                                 </form>
-                            </div>
+                            </div> */}
                             <nav className="offcanvas-navigation" id="offcanvas-navigation">
                                 <ul>
                                     <li className="menu-item-has-children">
