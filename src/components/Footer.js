@@ -67,8 +67,8 @@ class Footer extends Component {
                                                 <ul className="footer-widget__navigation">
                                                     <li><a href={`${process.env.PUBLIC_URL}/quem-somos`}>Quem Somos</a></li>
                                                     <li><a href={`${process.env.PUBLIC_URL}/`}>Produtos</a></li>
-                                                    <li><a href={`${process.env.PUBLIC_URL}/`}>Projetos</a></li>
-                                                    <li><a href={`${process.env.PUBLIC_URL}/blog`}>Blog</a></li>
+                                                    {/* <li><a href={`${process.env.PUBLIC_URL}/`}>Projetos</a></li> */}
+                                                    {/* <li><a href={`${process.env.PUBLIC_URL}/blog`}>Blog</a></li> */}
                                                 </ul>
                                             </div>
                                         </div>
