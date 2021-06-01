@@ -3,7 +3,6 @@ import NavBar from './components/NavBar';
 import HeroSliderTwo from './components/HeroSliderTwo';
 import VideoCta from './components/VideoCta';
 import Funfact from './components/Funfact';
-import ProjectSliderTwo from './components/ProjectSliderTwo';
 import ServiceTab from './components/ServiceTab';
 import TestimonialSlider from './components/TestimonialSlider';
 import PageCta from './components/PageCta';
@@ -29,7 +28,7 @@ class HomeTwo extends Component{
                 <Funfact/>
 
                 {/* Project Slider */}
-                <ProjectSliderTwo/>
+                {/* <ProjectSliderTwo/> */}
 
                 {/* Service Tab */}
                 <ServiceTab/>
